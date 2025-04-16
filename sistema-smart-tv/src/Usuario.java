@@ -22,5 +22,7 @@ public class Usuario {
         SmartTv.diminuirCanal();
         System.out.println("Novo Status -> Canal da TV " + SmartTv.canal);
 
+        SmartTv.mudarCanal(13);
+        System.out.println("Novo Status -> Canal da TV " + SmartTv.canal);
     }
 }
